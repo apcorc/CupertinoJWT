@@ -3,580 +3,482 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		6CCBD05F212E7C63009DD9AC /* CommonCryptoModuleMap */ = {
+		"CupertinoJWT::CupertinoJWTPackageTests::ProductTarget" /* CupertinoJWTPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6CCBD060212E7C64009DD9AC /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXAggregateTarget "CupertinoJWTPackageTests" */;
 			buildPhases = (
-				6CCBD063212E7C6D009DD9AC /* ShellScript */,
 			);
 			dependencies = (
+				OBJ_47 /* PBXTargetDependency */,
 			);
-			name = CommonCryptoModuleMap;
-			productName = CommonCryptoModuleMap;
+			name = CupertinoJWTPackageTests;
+			productName = CupertinoJWTPackageTests;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		6CCBCFB1212E6472009DD9AC /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFB0212E6472009DD9AC /* JWT.swift */; };
-		6CCBCFB3212E6485009DD9AC /* P8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFB2212E6485009DD9AC /* P8.swift */; };
-		6CCBCFB5212E6498009DD9AC /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFB4212E6498009DD9AC /* ASN1.swift */; };
-		6CCBCFB7212E64A8009DD9AC /* ECKeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFB6212E64A8009DD9AC /* ECKeyData.swift */; };
-		6CCBCFB9212E64B6009DD9AC /* ECPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFB8212E64B6009DD9AC /* ECPrivateKey.swift */; };
-		6CCBCFBB212E64CB009DD9AC /* CupertinoJWTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFBA212E64CB009DD9AC /* CupertinoJWTError.swift */; };
-		6CCBCFBD212E64DD009DD9AC /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBCFBC212E64DD009DD9AC /* Data+Extension.swift */; };
-		6CCBD073212E92CF009DD9AC /* CupertinoJWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD072212E92CF009DD9AC /* CupertinoJWTTests.swift */; };
-		6CCBD075212E92CF009DD9AC /* CupertinoJWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBCF96212E6444009DD9AC /* CupertinoJWT.framework */; };
+		OBJ_28 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ASN1.swift */; };
+		OBJ_29 /* CupertinoJWTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CupertinoJWTError.swift */; };
+		OBJ_30 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Data+Extension.swift */; };
+		OBJ_31 /* ECKeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ECKeyData.swift */; };
+		OBJ_32 /* ECPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ECPrivateKey.swift */; };
+		OBJ_33 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* JWT.swift */; };
+		OBJ_34 /* P8.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* P8.swift */; };
+		OBJ_35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* main.swift */; };
+		OBJ_42 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_53 /* CupertinoJWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CupertinoJWTTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CCBD064212E7D25009DD9AC /* PBXContainerItemProxy */ = {
+		38B613D1219A3F77009C7246 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6CCBCF8D212E6444009DD9AC /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6CCBD05F212E7C63009DD9AC;
-			remoteInfo = CommonCryptoModuleMap;
+			remoteGlobalIDString = "CupertinoJWT::CupertinoJWT";
+			remoteInfo = CupertinoJWT;
 		};
-		6CCBD076212E92CF009DD9AC /* PBXContainerItemProxy */ = {
+		38B613D2219A3F79009C7246 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6CCBCF8D212E6444009DD9AC /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6CCBCF95212E6444009DD9AC;
-			remoteInfo = "CupertinoJWT iOS";
+			remoteGlobalIDString = "CupertinoJWT::CupertinoJWTTests";
+			remoteInfo = CupertinoJWTTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CCBCF96212E6444009DD9AC /* CupertinoJWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CupertinoJWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCBCF9A212E6444009DD9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CCBCFB0212E6472009DD9AC /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
-		6CCBCFB2212E6485009DD9AC /* P8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8.swift; sourceTree = "<group>"; };
-		6CCBCFB4212E6498009DD9AC /* ASN1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1.swift; sourceTree = "<group>"; };
-		6CCBCFB6212E64A8009DD9AC /* ECKeyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECKeyData.swift; sourceTree = "<group>"; };
-		6CCBCFB8212E64B6009DD9AC /* ECPrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECPrivateKey.swift; sourceTree = "<group>"; };
-		6CCBCFBA212E64CB009DD9AC /* CupertinoJWTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoJWTError.swift; sourceTree = "<group>"; };
-		6CCBCFBC212E64DD009DD9AC /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
-		6CCBCFC0212E69D9009DD9AC /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		6CCBCFC1212E69D9009DD9AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6CCBD070212E92CF009DD9AC /* CupertinoJWT Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CupertinoJWT Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCBD072212E92CF009DD9AC /* CupertinoJWTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoJWTTests.swift; sourceTree = "<group>"; };
-		6CCBD074212E92CF009DD9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CCBD09A212EA614009DD9AC /* CupertinoJWT.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CupertinoJWT.podspec; sourceTree = "<group>"; };
+		"CupertinoJWT::CupertinoJWT::Product" /* CupertinoJWT */ = {isa = PBXFileReference; lastKnownFileType = text; path = CupertinoJWT; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CupertinoJWT::CupertinoJWTTests::Product" /* CupertinoJWTTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CupertinoJWTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* CupertinoJWTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoJWTError.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* ECKeyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECKeyData.swift; sourceTree = "<group>"; };
+		OBJ_13 /* ECPrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECPrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_14 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		OBJ_15 /* P8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8.swift; sourceTree = "<group>"; };
+		OBJ_16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CupertinoJWTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoJWTTests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* ASN1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6CCBCF92212E6444009DD9AC /* Frameworks */ = {
+		OBJ_36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CCBD06D212E92CF009DD9AC /* Frameworks */ = {
+		OBJ_54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				6CCBD075212E92CF009DD9AC /* CupertinoJWT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6CCBCF8C212E6444009DD9AC = {
+		OBJ_17 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBCFC0212E69D9009DD9AC /* CHANGELOG.md */,
-				6CCBCFC1212E69D9009DD9AC /* README.md */,
-				6CCBD09A212EA614009DD9AC /* CupertinoJWT.podspec */,
-				6CCBCF98212E6444009DD9AC /* Sources */,
-				6CCBD071212E92CF009DD9AC /* Tests */,
-				6CCBCF97212E6444009DD9AC /* Products */,
+				OBJ_18 /* CupertinoJWTTests */,
 			);
-			sourceTree = "<group>";
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
-		6CCBCF97212E6444009DD9AC /* Products */ = {
+		OBJ_18 /* CupertinoJWTTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBCF96212E6444009DD9AC /* CupertinoJWT.framework */,
-				6CCBD070212E92CF009DD9AC /* CupertinoJWT Tests.xctest */,
+				OBJ_19 /* CupertinoJWTTests.swift */,
+			);
+			name = CupertinoJWTTests;
+			path = Tests/CupertinoJWTTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"CupertinoJWT::CupertinoJWTTests::Product" /* CupertinoJWTTests.xctest */,
+				"CupertinoJWT::CupertinoJWT::Product" /* CupertinoJWT */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6CCBCF98212E6444009DD9AC /* Sources */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBCFB0212E6472009DD9AC /* JWT.swift */,
-				6CCBCFBA212E64CB009DD9AC /* CupertinoJWTError.swift */,
-				6CCBCFB2212E6485009DD9AC /* P8.swift */,
-				6CCBCFB4212E6498009DD9AC /* ASN1.swift */,
-				6CCBCFB6212E64A8009DD9AC /* ECKeyData.swift */,
-				6CCBCFB8212E64B6009DD9AC /* ECPrivateKey.swift */,
-				6CCBCFBC212E64DD009DD9AC /* Data+Extension.swift */,
-				6CCBCFDF212E7190009DD9AC /* Supporting Files */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_17 /* Tests */,
+				OBJ_20 /* Products */,
 			);
-			path = Sources;
+			name = "";
 			sourceTree = "<group>";
 		};
-		6CCBCFDF212E7190009DD9AC /* Supporting Files */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBCF9A212E6444009DD9AC /* Info.plist */,
+				OBJ_8 /* CupertinoJWT */,
 			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
-		6CCBD071212E92CF009DD9AC /* Tests */ = {
+		OBJ_8 /* CupertinoJWT */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBD072212E92CF009DD9AC /* CupertinoJWTTests.swift */,
-				6CCBD074212E92CF009DD9AC /* Info.plist */,
+				OBJ_9 /* ASN1.swift */,
+				OBJ_10 /* CupertinoJWTError.swift */,
+				OBJ_11 /* Data+Extension.swift */,
+				OBJ_12 /* ECKeyData.swift */,
+				OBJ_13 /* ECPrivateKey.swift */,
+				OBJ_14 /* JWT.swift */,
+				OBJ_15 /* P8.swift */,
+				OBJ_16 /* main.swift */,
 			);
-			path = Tests;
-			sourceTree = "<group>";
+			name = CupertinoJWT;
+			path = Sources/CupertinoJWT;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		6CCBCF93212E6444009DD9AC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		6CCBCF95212E6444009DD9AC /* CupertinoJWT */ = {
+		"CupertinoJWT::CupertinoJWT" /* CupertinoJWT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CCBCFAA212E6445009DD9AC /* Build configuration list for PBXNativeTarget "CupertinoJWT" */;
+			buildConfigurationList = OBJ_24 /* Build configuration list for PBXNativeTarget "CupertinoJWT" */;
 			buildPhases = (
-				6CCBCF91212E6444009DD9AC /* Sources */,
-				6CCBCF92212E6444009DD9AC /* Frameworks */,
-				6CCBCF93212E6444009DD9AC /* Headers */,
-				6CCBCF94212E6444009DD9AC /* Resources */,
+				OBJ_27 /* Sources */,
+				OBJ_36 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6CCBD065212E7D25009DD9AC /* PBXTargetDependency */,
 			);
 			name = CupertinoJWT;
 			productName = CupertinoJWT;
-			productReference = 6CCBCF96212E6444009DD9AC /* CupertinoJWT.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = "CupertinoJWT::CupertinoJWT::Product" /* CupertinoJWT */;
+			productType = "com.apple.product-type.tool";
 		};
-		6CCBD06F212E92CF009DD9AC /* CupertinoJWT Tests */ = {
+		"CupertinoJWT::CupertinoJWTTests" /* CupertinoJWTTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CCBD078212E92CF009DD9AC /* Build configuration list for PBXNativeTarget "CupertinoJWT Tests" */;
+			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "CupertinoJWTTests" */;
 			buildPhases = (
-				6CCBD06C212E92CF009DD9AC /* Sources */,
-				6CCBD06D212E92CF009DD9AC /* Frameworks */,
-				6CCBD06E212E92CF009DD9AC /* Resources */,
+				OBJ_52 /* Sources */,
+				OBJ_54 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6CCBD077212E92CF009DD9AC /* PBXTargetDependency */,
+				OBJ_55 /* PBXTargetDependency */,
 			);
-			name = "CupertinoJWT Tests";
+			name = CupertinoJWTTests;
 			productName = CupertinoJWTTests;
-			productReference = 6CCBD070212E92CF009DD9AC /* CupertinoJWT Tests.xctest */;
+			productReference = "CupertinoJWT::CupertinoJWTTests::Product" /* CupertinoJWTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CupertinoJWT::SwiftPMPackageDescription" /* CupertinoJWTPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "CupertinoJWTPackageDescription" */;
+			buildPhases = (
+				OBJ_41 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CupertinoJWTPackageDescription;
+			productName = CupertinoJWTPackageDescription;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6CCBCF8D212E6444009DD9AC /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Elaborapp Co., Ltd.";
-				TargetAttributes = {
-					6CCBCF95212E6444009DD9AC = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
-					};
-					6CCBD05F212E7C63009DD9AC = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					6CCBD06F212E92CF009DD9AC = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 6CCBCF90212E6444009DD9AC /* Build configuration list for PBXProject "CupertinoJWT" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CupertinoJWT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6CCBCF8C212E6444009DD9AC;
-			productRefGroup = 6CCBCF97212E6444009DD9AC /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CCBCF95212E6444009DD9AC /* CupertinoJWT */,
-				6CCBD06F212E92CF009DD9AC /* CupertinoJWT Tests */,
-				6CCBD05F212E7C63009DD9AC /* CommonCryptoModuleMap */,
+				"CupertinoJWT::CupertinoJWT" /* CupertinoJWT */,
+				"CupertinoJWT::SwiftPMPackageDescription" /* CupertinoJWTPackageDescription */,
+				"CupertinoJWT::CupertinoJWTPackageTests::ProductTarget" /* CupertinoJWTPackageTests */,
+				"CupertinoJWT::CupertinoJWTTests" /* CupertinoJWTTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		6CCBCF94212E6444009DD9AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CCBD06E212E92CF009DD9AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6CCBD063212E7C6D009DD9AC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${PROJECT_DIR}/install_common_crypto.sh";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6CCBCF91212E6444009DD9AC /* Sources */ = {
+		OBJ_27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				6CCBCFBB212E64CB009DD9AC /* CupertinoJWTError.swift in Sources */,
-				6CCBCFBD212E64DD009DD9AC /* Data+Extension.swift in Sources */,
-				6CCBCFB5212E6498009DD9AC /* ASN1.swift in Sources */,
-				6CCBCFB9212E64B6009DD9AC /* ECPrivateKey.swift in Sources */,
-				6CCBCFB7212E64A8009DD9AC /* ECKeyData.swift in Sources */,
-				6CCBCFB1212E6472009DD9AC /* JWT.swift in Sources */,
-				6CCBCFB3212E6485009DD9AC /* P8.swift in Sources */,
+				OBJ_28 /* ASN1.swift in Sources */,
+				OBJ_29 /* CupertinoJWTError.swift in Sources */,
+				OBJ_30 /* Data+Extension.swift in Sources */,
+				OBJ_31 /* ECKeyData.swift in Sources */,
+				OBJ_32 /* ECPrivateKey.swift in Sources */,
+				OBJ_33 /* JWT.swift in Sources */,
+				OBJ_34 /* P8.swift in Sources */,
+				OBJ_35 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CCBD06C212E92CF009DD9AC /* Sources */ = {
+		OBJ_41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				6CCBD073212E92CF009DD9AC /* CupertinoJWTTests.swift in Sources */,
+				OBJ_42 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_53 /* CupertinoJWTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6CCBD065212E7D25009DD9AC /* PBXTargetDependency */ = {
+		OBJ_47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CCBD05F212E7C63009DD9AC /* CommonCryptoModuleMap */;
-			targetProxy = 6CCBD064212E7D25009DD9AC /* PBXContainerItemProxy */;
+			target = "CupertinoJWT::CupertinoJWTTests" /* CupertinoJWTTests */;
+			targetProxy = 38B613D2219A3F79009C7246 /* PBXContainerItemProxy */;
 		};
-		6CCBD077212E92CF009DD9AC /* PBXTargetDependency */ = {
+		OBJ_55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CCBCF95212E6444009DD9AC /* CupertinoJWT */;
-			targetProxy = 6CCBD076212E92CF009DD9AC /* PBXContainerItemProxy */;
+			target = "CupertinoJWT::CupertinoJWT" /* CupertinoJWT */;
+			targetProxy = 38B613D1219A3F77009C7246 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6CCBCFA8212E6445009DD9AC /* Debug */ = {
+		OBJ_25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CupertinoJWT.xcodeproj/CupertinoJWT_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CupertinoJWT;
+			};
+			name = Debug;
+		};
+		OBJ_26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CupertinoJWT.xcodeproj/CupertinoJWT_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CupertinoJWT;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx watchsimulator watchos appletvos appletvsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		6CCBCFA9212E6445009DD9AC /* Release */ = {
+		OBJ_39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode10.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx watchsimulator watchos appletvos appletvsimulator";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_INCLUDE_PATHS = "${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap";
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6CCBCFAB212E6445009DD9AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.elaborapp.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CupertinoJWT;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode10.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 			};
 			name = Debug;
 		};
-		6CCBCFAC212E6445009DD9AC /* Release */ = {
+		OBJ_46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Release;
+		};
+		OBJ_50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.elaborapp.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CupertinoJWT;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6CCBD061212E7C64009DD9AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SE9N6X5V7C;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CupertinoJWT.xcodeproj/CupertinoJWTTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CupertinoJWTTests;
 			};
 			name = Debug;
 		};
-		6CCBD062212E7C64009DD9AC /* Release */ = {
+		OBJ_51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SE9N6X5V7C;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6CCBD079212E92CF009DD9AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.elaborapp.CupertinoJWTTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6CCBD07A212E92CF009DD9AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.elaborapp.CupertinoJWTTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CupertinoJWT.xcodeproj/CupertinoJWTTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CupertinoJWTTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CCBCF90212E6444009DD9AC /* Build configuration list for PBXProject "CupertinoJWT" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "CupertinoJWT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCBCFA8212E6445009DD9AC /* Debug */,
-				6CCBCFA9212E6445009DD9AC /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCBCFAA212E6445009DD9AC /* Build configuration list for PBXNativeTarget "CupertinoJWT" */ = {
+		OBJ_24 /* Build configuration list for PBXNativeTarget "CupertinoJWT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCBCFAB212E6445009DD9AC /* Debug */,
-				6CCBCFAC212E6445009DD9AC /* Release */,
+				OBJ_25 /* Debug */,
+				OBJ_26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCBD060212E7C64009DD9AC /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */ = {
+		OBJ_38 /* Build configuration list for PBXNativeTarget "CupertinoJWTPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCBD061212E7C64009DD9AC /* Debug */,
-				6CCBD062212E7C64009DD9AC /* Release */,
+				OBJ_39 /* Debug */,
+				OBJ_40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCBD078212E92CF009DD9AC /* Build configuration list for PBXNativeTarget "CupertinoJWT Tests" */ = {
+		OBJ_44 /* Build configuration list for PBXAggregateTarget "CupertinoJWTPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCBD079212E92CF009DD9AC /* Debug */,
-				6CCBD07A212E92CF009DD9AC /* Release */,
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_49 /* Build configuration list for PBXNativeTarget "CupertinoJWTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_50 /* Debug */,
+				OBJ_51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6CCBCF8D212E6444009DD9AC /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
